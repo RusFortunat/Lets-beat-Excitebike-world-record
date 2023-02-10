@@ -4,4 +4,4 @@ Let's try to teach our Excitebike motocycle rider to beat [the world record](htt
 
 I will be trying to do so by using PyTorch, and [this](https://www.makeuseof.com/python-excitebike-homage-create/) python source code for Excitebike.
 
-Yay, let's do it!
+Let's do it! :robot: :mechanical_arm:
