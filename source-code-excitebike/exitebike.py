@@ -2,7 +2,7 @@
 import pgzrun, time
 
 startTime = time.time()
-bike = Actor('bike0',center=(150,350), anchor=('center','bottom'))
+bike = Actor('lel',center=(150,350), anchor=('center','bottom'))
 bike.speed = 1
 bike.frame = bike.direction = 0
 bike.laneY = 375
