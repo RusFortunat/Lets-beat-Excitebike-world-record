@@ -4,9 +4,8 @@ Will be trying to teach our Excitebike AI motocycle rider to beat [the world rec
 
 I will be using PyTorch, and [this](https://www.makeuseof.com/python-excitebike-homage-create/) python source code for Excitebike.
 
-Let's do it! :robot: :mechanical_arm:
-
-(and do some silly crap along the way)<br />
+Let's do it (and do some silly crap along the way)! :robot: :mechanical_arm:
+<br />
 <br /> 
 
 
