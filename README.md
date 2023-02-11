@@ -11,7 +11,7 @@ Let's do it (and some silly crap along the way)! :robot: :mechanical_arm:
 
 Tentative plan:
 
-1. Learn how to add an AI bot player, that will be doing some semi-sensible stuff on its own. 
+1. Learn how to add an AI bot player that will be doing some semi-sensible stuff on its own. 
 
 2. Learn how to store information about all inputs that AI has made in some data base
 
