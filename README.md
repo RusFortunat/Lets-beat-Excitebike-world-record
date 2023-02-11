@@ -1,4 +1,4 @@
-# Lets-beat-Excitebike-world-record
+# Let's beat Excitebike world record
 
 Will be trying to teach our Excitebike motocycle rider to beat [the world record](https://www.youtube.com/watch?v=erNCijFRXoc&ab_channel=AndrewgSpeedruns) by using Deep Reinforcement Learning.
 
