@@ -6,8 +6,8 @@ I will be using PyTorch, and [this](https://www.makeuseof.com/python-excitebike-
 
 Let's do it! :robot: :mechanical_arm:
 
-(and do some silly crap along the way)
-<br />
+(and do some silly crap along the way)<br />
+<br /> 
 
 
 Tentative plan:
