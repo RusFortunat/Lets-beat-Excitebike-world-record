@@ -2,7 +2,7 @@
 import pgzrun, time
 
 startTime = time.time()
-bike = Actor('lel',center=(150,350), anchor=('center','bottom'))
+bike = Actor('lel_smol_transparent',center=(150,350), anchor=('center','bottom'))
 bike.speed = 1
 bike.frame = bike.direction = 0
 bike.laneY = 375
@@ -57,13 +57,13 @@ def drawTrack():
     trackBlock = int(-trackPos/100)
     if trackOffset == 0: trackBlock -= 1
     for t in range(0, 9):
-        screen.blit("crowd1", ((t*100)+trackOffset-100, 0))
-        screen.blit("rock1", ((t*100)+trackOffset-100, 270))
-        screen.blit("rock1", ((t*100)+trackOffset-50, 270))
+        screen.blit("animegirl2", ((t*100)+trackOffset-100, 0)) # crowd
+        screen.blit("animegirl1", ((t*100)+trackOffset-100, 270)) # rocks on the side of the track
+        screen.blit("lel_smol_transparent", ((t*100)+trackOffset-50, 270)) # rocks on the side of the track
         if track[trackBlock+t] == 0: screen.blit("track1", ((t*100)+trackOffset-100, 300))
         if track[trackBlock+t] == 1: screen.blit("jump1", ((t*100)+trackOffset-100, 300))
         if track[trackBlock+t] == 2: screen.blit("track2", ((t*100)+trackOffset-100, 300))
-        if muck[trackBlock+t] > 0: screen.blit("muck1", ((t*100)+trackOffset-100, 295+(muck[trackBlock+t])*50))
+        if muck[trackBlock+t] > 0: screen.blit("shit_transparent", ((t*100)+trackOffset-100, 295+(muck[trackBlock+t])*50)) # muck
         
 def checkBikeRamp():
     tp = trackPos + 25
